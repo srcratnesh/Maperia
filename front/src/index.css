@@ -1,0 +1,119 @@
+/* index.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Your other styles go here */
+
+
+.profile-image {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 1.5rem; /* Move the image to the right by 1.5 centimeters */
+    border: 2px solid white;
+    box-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc, 0 0 30px #00f;  }
+  
+  .contact-block {
+    padding: 1.5rem;
+  }
+  
+  .glow {
+    box-shadow: 0 0 10px #00a6ff, 0 0 15px #00e1ff, 0 0 20px #00ffc8; /* Border glow effect */
+  }
+  
+  .text-glow {
+    text-shadow: none;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .text-stroke {
+    -webkit-text-stroke: 1px white;
+  }
+  
+  .text-justify {
+    text-align: justify;
+  }
+  
+  /* ContactUs.css */
+
+/* Astha's Block Style */
+.astha-block {
+    padding: 1.5rem;
+    box-shadow: 0 0 10px #ff1493, 0 0 15px #ff69b4, 0 0 20px #ff6eb4; /* Pink glow effect */
+  }
+
+  @keyframes heartbeat {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 10px #ff00c3, 0 0 15px #fff, 0 0 20px #fff;
+    }
+    50% {
+      transform: scale(1);
+      box-shadow: 0 0 15px #00eeff, 0 0 20px #fff, 0 0 25px #fff;
+    }
+    100% {
+      transform: scale(1);
+      box-shadow: 0 0 10px #ff00c3, 0 0 15px #fff, 0 0 20px #fff;
+    }
+  }
+  
+  .glowing-heartbeat-animation {
+    animation: heartbeat 1s infinite;
+  }
+  
+  /* ContactUs.css */
+
+.pop-up {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .pop-up:hover {
+    transform: scale(1.01);
+  }
+  
+  
+/* ContactUs.css */
+
+.ratnesh-block {
+    padding: 1.5rem;
+    box-shadow: 0 0 10px #00a6ff, 0 0 15px #00e1ff, 0 0 20px #00ffc8; /* Blue glow effect */
+}
+
+.astha-block {
+    padding: 1.5rem;
+    box-shadow: 0 0 10px #ff1493, 0 0 15px #ff69b4, 0 0 20px #ff6eb4; /* Pink glow effect */
+}
+
+.text-blue-300 {
+    color: #4b0082; /* Adjust the color code based on your preference */
+    text-shadow: 0 0 10px #00a6ff, 0 0 15px #00e1ff, 0 0 20px #00ffc8; /* Blue glow effect */
+}
+
+/* index.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Your-Preferred-Font', sans-serif; /* Replace with your preferred font */
+  color: #0000; /* Set text color */
+}
+
+#root {
+  height: 100%;
+}
+
+.smd{
+  box-shadow: 0 0 10px #ff1493, 0 0 15px #ff69b4, 0 0 20px #ff6eb4; /* Pink glow effect */
+
+  
+}

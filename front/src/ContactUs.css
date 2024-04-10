@@ -1,0 +1,22 @@
+.contact-block {
+    padding: 1.5rem;
+  }
+  
+  .glow {
+    box-shadow: 0 0 10px #ff00c3, 0 0 15px #fff, 0 0 20px #00ffcc; /* Border glow effect */
+  }
+  
+  .text-glow {
+    text-shadow: 0 0 5px #ff00c3, 0 0 10px #fff, 0 0 15px #fff;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .text-stroke {
+    -webkit-text-stroke: 1px white;
+  }
+  
+  .text-justify {
+    text-align: justify;
+  }
+  
